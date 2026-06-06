@@ -1,0 +1,24 @@
+# Keys and credentials - NEVER commit these
+*.pem
+*.ppk
+*.pub
+
+# Temp files
+block-device.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
